@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     Table Review
+ </head>
+
+ <body>
+
+    <table>
+      <tr><th>Top Largest Companies by Revenue (Wikipedia) address : https://en.wikipedia.org/wiki/List_of_largest_companies_by_revenue</th></tr>
+      <tr><th>Rank</th><th>Name</th><th>Industry</th><th>Revenue(USD millions)</th><th>Profit(USD millions)</th><th>Employees</th><th>Country</th><tr>
+      <tr><td>1</td><td>Walmart</td><td>Retail</td><td>$514,405</td><td>$6,670</td><td>2,200,000</td><td>US</td></tr> 
+      
+      
+    
+    
+    
+    </table>
+
+ </body>
+</html>
