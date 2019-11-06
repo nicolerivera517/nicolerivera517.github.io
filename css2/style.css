@@ -52,31 +52,4 @@
         }
         
     </style> 
-</head>
-<body>
-    <div id="banner"><h1>African Wildlife</h1>
-    </div>
-    <div id="nav">
-        <ul>
-            <li><a href="image1.html" target="new" text="Tortoise">Tortoise</a>
-            </li>
-            <li><a href="image2.html" target="new">
-               Lion</a>
-            </li>
-            <li><a href="image3.html" target="new">
-               Giraffe</a>
-            </li>
-        </ul> 
-    </div>
-    <div style="margin:auto; width:80%">
-        <h1>This is an h1 heading, but it is not inheriting the styling of the banner div's h1 style</h1>
-        <p>This is the home page of our wildlife gallery. It gives us a way to navigate to our individual wildlife pages. We will see if we can spruce it up further with some styles....
-        </p>
-        <p>
-        The fauna of Africa, in its broader sense, is all the animals living in Africa and its surrounding seas and islands. The more characteristic African fauna is found in the Afrotropical ecoregion.[1] Lying almost entirely within the tropics, and equally to north and south of the equator creates favourable conditions for rich wildlife.</p>
-    </div>
-    <div id="footer"><hr>&copy;2019 ADIT1340 Boston College
-    </div>
-
-</body>
 </html>
