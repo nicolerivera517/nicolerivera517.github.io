@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-        body{background-color:forestgreen;
+body{background-color:forestgreen;
         }
         #banner{
             width:100%; height:435px;
@@ -43,6 +41,3 @@
             text-align:center;
             padding-top:2%;
         }
-        
-    </style> 
-</html>
