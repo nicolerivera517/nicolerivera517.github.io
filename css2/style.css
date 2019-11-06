@@ -38,7 +38,25 @@ body{
         p{
             font-size:1.3em;
         }
+
+        #detail h2 {
+                    color:gold;
+                    font-size:2em;
+            }
+
+          div#detail{
+                    text-align:center;
+                      font-size:1.5em;
+                      width:80%;
+                      margin:auto;
+}
+#caption{
+            color:white;
+            width:100%;
+            text-align:left;
+}
         #footer{
+            clear:both;
             text-align:center;
             padding-top:2%;
         }
