@@ -50,6 +50,11 @@ body{
                       width:80%;
                       margin:auto;
 }
+#detail img{
+            float:right;
+            paddng-left:2%;
+}
+
 #caption{
             color:white;
             width:100%;
