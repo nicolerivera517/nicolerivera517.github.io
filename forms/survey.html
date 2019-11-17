@@ -2,8 +2,6 @@
 <html>
   <head>
     <title>Survey</title>
-    <style>
-
 </head>
 <body>
       <form action="https://idesstage2.bc.edu/class/results.php" method="post">
@@ -11,10 +9,10 @@
 First Name:
 <input type="text" name="First Name">
 </div>
-      <div>
+<div>
 Last Name:
 <input type="text" name="Last Name">
-      </div>
+</div>
 <div>
 Email:
 <input typ="email" name="Email" required>
@@ -30,6 +28,15 @@ How do you listen to music?
 <input type="radio" name="How do you listen to music?" value="Via CDs"> Via CDs
 <input type="radio" name="How do you listen to music?" value="Via Vinyl Records"> Via Vinyl Records
 <input type="radio" name="How do you listen to music?" value="Other"> Other
+</div>
+<div>
+When do you listen to music?
+<input type="checkbox" name="When do you listen to music?" value="At School">At School   
+<input type="checkbox" name="When do you listen to music?" value="At Work">At Work    
+<input type="checkbox" name="When do you listen to music?" value="At Home">At Home
+<input type="checkbox" name="When do you listen to music?" value="While Working Out">While Working Out   
+<input type="checkbox" name="When do you listen to music?" value="Other">Other
+</div>
 <div>
 What is your favorite genre of music?:
 <select name="What is your favorite genre of music?">
@@ -39,8 +46,11 @@ What is your favorite genre of music?:
   <option value="Hip Hop">Hip Hop</option>
   <option value="Electronic">Electronic</option>
 </select> 
-      </div>
-      </form> 
-   </div> 
+ </div>
+<div>
+Submit:
+<input type="submit" id="submit" type="submit" value="SUBMIT">
+ </div> 
+  </form> 
   </body>
   </html>
