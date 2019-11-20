@@ -70,6 +70,12 @@ border:2px solid black;
       <textarea name="What do you want to do with your life?" rows="10" cols="30"></textarea>
       </div>
       <div>
+      My tolerance for writing html:
+<br>(0=lowest; 100=highest)<br>
+<input type="range" name="range" min="0" max="100" onchange="showValue(this.value)" value=this.valueAsNumber>
+<div id="range"> 0 </div>
+      </div> 
+      <div>
       Submit:
       <input type="submit" id="submit" type="submit" value="SUBMIT">
        </div> 
