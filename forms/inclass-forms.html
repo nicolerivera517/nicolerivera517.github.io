@@ -43,7 +43,7 @@ border:2px solid black;
     <script>
       /* function myConfirtmation(){
       var name=document.getElementById("name").value;
-      window.alert("Hey " + name + ", you've really done it now, you are going to be redirected to a sketchy site!");
+      alert("Hey " + name + ", you've really done it now, you are going to be redirected to a sketchy site!");
       return;
       }
       */
@@ -57,10 +57,10 @@ border:2px solid black;
   </head>
 <body>
   <div>
-    <form action="https://idesstage2.bc.edu/class/results.php" method="post">
+    <form action="https://idesstage2.bc.edu/class/results.php" method="get" onSubmit="myConfirmation()">
       <div>
       First Name:
-      <input type="text" name="First Name">
+      <input type="text" name="First Name" id="name">
       </div>
       <div>
       Last Name:
