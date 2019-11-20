@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Form</title>
+    <style>
+  body {
+background-color:cadetblue;
+}
+#content{
+width:90%;
+margin:auto;
+text-align:center;
+}
+form {
+font-size:1.5em;
+margin-left:5%;
+padding-top:5%;
+background-color: cornsilk;
+border:2px dotted #000;
+}
+input {
+margin-bottom:2%;
+font-size: 1em;
+}
+input#submit {
+border:4px solid yellow;
+border-radius: 50px 50px;
+text-align: center;
+background-color:chocolate;
+color:white;
+font-weight:bold;
+padding: 20px;
+}
+#submit:hover {
+background-color:cornsilk;
+color:chocolate;
+font-size:150%;
+border:2px solid black;
+}
+    </style>
+  </head>
+<body>
+  <div>
+    <form action="https://idesstage2.bc.edu/class/results.php" method="post">
+      <div>
+      First Name:
+      <input type="text" name="First Name">
+      </div>
+      <div>
+      Last Name:
+      <input type="text" name="Last Name">
+      </div>
+      <div>
+      Email:
+      <input type="email" name="Email" required>
+      </div>
+      <div>
+      Favorite Ice Cream:
+      <select name="Favorite Ice Cream">
+        <option value="Chocolate">Chocolate</option>
+        <option value="Vanilla">Vanilla</option>
+        <option value="Strawberry">Strawberry</option>
+        <option value="Mint Chocolate Chip">Mint Chocolate Chip</option>
+        <option value="Coffee">Coffee</option>
+        <option value="Pistachio">Pistachio</option>
+      </select>
+      </div>
+      <div>
+      What do you want to do with your life?:
+      <textarea name="What do you want to do with your life?" rows="10" cols="30"></textarea>
+      </div>
+      <div>
+      Submit:
+      <input type="submit" id="submit" type="submit" value="SUBMIT">
+       </div> 
+      
+     
+      
+      
+    </form> 
+      </div>
+    </body>
+  </html>
+    
