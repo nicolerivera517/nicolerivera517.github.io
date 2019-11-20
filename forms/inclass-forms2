@@ -85,6 +85,12 @@ border:2px solid black;
       
     </form> 
       </div>
+      <script>
+function showValue(newValue)
+{
+document.getElementById("range").innerHTML=newValue;
+}
+</script>
     </body>
   </html>
     
