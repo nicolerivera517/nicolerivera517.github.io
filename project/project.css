@@ -43,7 +43,7 @@ body{
             positive:absolute;
                     bottom: 0;
   width: 100%;
-  height: 2.5rem;position: fixed
+  height: 2.5rem;position: absolute
         }
 
 #nav a:hover {font:trebuchet;font-size:3em;
