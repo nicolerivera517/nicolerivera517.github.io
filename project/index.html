@@ -26,8 +26,54 @@
             color:black;
             width:100%;
             text-align:left;}
+	.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+	.dropbtn:hover, .dropbtn:focus {
+		background-color:maroon;}
+	.dropdown {
+  position: relative;
+		display: inline-block;}
+	.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: maroon;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+	.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+	.dropdown-content a:hover {background-color:gold
+		
 
     </style> 
+	<script>
+		function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+		window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+	</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="boston, college, courses, requirements, home">
 	<meta name="description" content="Boston College Course Rolodex home page">
@@ -67,9 +113,16 @@
   Your browser does not support the audio element.
         </audio> 
     </div>
-     <iframe width="400" height="300"
-src="https://www.youtube.com/embed/N-BfWAwCRwE">
-    </iframe>
+	<br>
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="mcas.html">MCAS</a>
+    <a href="csom.html">CSOM</a>
+    <a href="lsoehd.html">LSOEHD</a>
+    <a href="cson.html">CSON</a>
+  </div>
+</div>
     <div id="footer"><hr>&copy;2019 - ADIT1340 - Boston College - Nicole Rivera
     </div>
 
